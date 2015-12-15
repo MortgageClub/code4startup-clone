@@ -10,6 +10,11 @@
   </div>
   <div class="col m9">
     <div class="card blue-grey darken-1">
+      <div class="card-image">
+        <div class="wistia_embed wistia_async_<%= @video.wistia %>" style="height:450px">
+
+        </div>
+      </div>
       <div class="card-content white-text">
         <span class="card-title">
           <%= @video.title %>
@@ -27,3 +32,5 @@
     </div>
   </div>
 </div>
+
+<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
